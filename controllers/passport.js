@@ -2,7 +2,7 @@
 
 const passport = require('passport');
 const LocalStrategy = require('passport-local');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const models = require('../models');
 
 //ham nay duoc goi khi xac dinh thanh cong va luu thong tin user vao session
