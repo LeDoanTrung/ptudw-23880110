@@ -4,7 +4,13 @@
     "password": "npg_x4l6SXoFJphB",
     "database": "neondb",
     "host": "ep-cool-bread-a4oifkja-pooler.us-east-1.aws.neon.tech",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
